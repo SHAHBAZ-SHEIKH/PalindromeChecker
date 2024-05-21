@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #663399;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cheker-main{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+.cheker-main h2{
+    font-size: 30px;
+    color: #1a1a1a;
+}
+
+.cheker-main input{
+    width: 350px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    border: 1px solid #663399;
+    outline: none;
+}
+.cheker-main button{
+    width: 350px;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #BA55D3;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 10px #E6E6FA;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cheker-main p{
+    font-size: 20px;
+    display: none;
+    text-align: center;
+    width: 350px;
+    /* background-color: yellow; */
+}
+
+@media (max-width:940px){
+    .cheker-main{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 45%;
+        background-color: #fafafa;
+        border-radius: 10px;
+    }
+    .cheker-main input{
+        width: 300px;
+        height: 40px;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 20px;
+        border: 1px solid #663399;
+        outline: none;
+    }
+    .cheker-main button{
+        width: 300px;
+        height: 40px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #BA55D3;
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        box-shadow: 2px 2px 10px #E6E6FA;
+        transition: 1s;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .cheker-main p{
+        font-size: 20px;
+        display: none;
+        text-align: center;
+        width: 300px;
+        /* background-color: yellow; */
+
+    }
+    .cheker-main h2{
+        font-size: 25px;
+        color: #1a1a1a;
+    }
+
+
+
+}
+
+@media (max-width:600px){
+    .cheker-main{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: #fafafa;
+        border-radius: 10px;
+    }
+    .cheker-main h2{
+        font-size: 25px;
+        color: #1a1a1a;
+    }
+    .cheker-main input{
+        width: 270px;
+        height: 40px;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 20px;
+        border: 1px solid #663399;
+        outline: none;
+    }
+    .cheker-main button{
+        width: 270px;
+        height: 40px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #BA55D3;
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        box-shadow: 2px 2px 10px #E6E6FA;
+        transition: 1s;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .cheker-main p{
+        font-size: 20px;
+        display: none;
+        text-align: center;
+        width: 270px;
+        /* background-color: yellow; */
+
+    }
+
+}
+
+@media (max-width:420px){
+    .cheker-main{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: #fafafa;
+        border-radius: 10px;
+    }
+    .cheker-main h2{
+        font-size: 22px;
+        color: #1a1a1a;
+    }
+    .cheker-main input{
+        width: 270px;
+        height: 50px;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 20px;
+        border: 1px solid #663399;
+        outline: none;
+    }
+    .cheker-main button{
+        width: 270px;
+        height: 40px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #BA55D3;
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        box-shadow: 2px 2px 10px #E6E6FA;
+        transition: 1s;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .cheker-main p{
+        font-size: 20px;
+        display: none;
+        text-align: center;
+        width: 270px;
+        /* background-color: yellow; */
+
+    }
+
+}
+@media (max-width:340px){
+    .cheker-main{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: #fafafa;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+    /* .cheker-main h2{
+        font-size: 18px;
+        color: #1a1a1a;
+    } */
+    .cheker-main input{
+        width: 190px;
+        height: 30px;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 10px;
+        border: 1px solid #663399;
+        outline: none;
+    }
+    .cheker-main button{
+        width: 190px;
+        height: 30px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #BA55D3;
+        color: #fff;
+        font-size: 10px;
+        border: none;
+        outline: none;
+        box-shadow: 2px 2px 10px #E6E6FA;
+        transition: 1s;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .cheker-main h2{
+        font-size: 15px;
+        color: #1a1a1a;
+    }
+    .cheker-main p{
+        font-size: 20px;
+        display: none;
+        text-align: center;
+        width: 180px;
+        /* background-color: yellow; */
+
+    }
+
+}
+
+@media (max-width:330px){
+    .cheker-main{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: #fafafa;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+    .cheker-main h2{
+        font-size: 25px;
+        color: #1a1a1a;
+    }
+    .cheker-main input{
+        width: 150px;
+        height: 30px;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 10px;
+        border: 1px solid #663399;
+        outline: none;
+    }
+    .cheker-main button{
+        width: 150px;
+        height: 30px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #BA55D3;
+        color: #fff;
+        font-size: 10px;
+        border: none;
+        outline: none;
+        box-shadow: 2px 2px 10px #E6E6FA;
+        transition: 1s;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .cheker-main h2{
+        font-size: 15px;
+        color: #1a1a1a;
+    }
+    .cheker-main p{
+        font-size: 20px;
+        display: none;
+        text-align: center;
+        width: 150px;
+        /* background-color: yellow; */
+
+    }
+
+}
